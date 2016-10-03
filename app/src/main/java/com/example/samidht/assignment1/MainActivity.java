@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(state == 1) {
                     state = 0;
-
                     ll.addView(gvEmpty,0,new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
                 }
             }
